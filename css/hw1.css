@@ -1,0 +1,39 @@
+header{
+  background-color: lightblue;
+  color: #2980B9;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+    background-color:lightgray;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.cardPane{
+  background-color: #ddd;
+  color: #2E4053;
+}
+
+.blink:hover{
+  color:green;
+  align-items: center;
+  padding: 0;
+  text-align: center;
+}
+
+.pic:hover{
+  background-color: grey;
+}
+
+#text_color{
+  color:#5D6D7E;
+}
+
+#nav_text{
+  color: #C0392B ;
+}

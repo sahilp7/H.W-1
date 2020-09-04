@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+    <title>Table</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/hw1.css">
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+    <div class = "container">
+        <header>
+            <div class = "responsive">
+                <h1>D & S (Homework 1)</h1>
+            </div>
+        </header>
+
+        <nav class = "row navbar navbar-default">
+            <a class="blink" id="nav_text" href ="index.html"> Home </a> |
+            <a class="blink" id="nav_text" href ="user.html"> User </a> |
+            <a class="blink" id="nav_text" href ="table.html"> Table </a>
+
+        </nav>
+        <main>
+
+              <h3 id="text_color">Book Table</h3>
+
+              <table class="table table-bordered table-striped table-hover table-condensed">
+                  <thead>
+                      <tr>
+                          <th class="text-center">Title</th>
+                          <th class="text-center">Author</th>
+                          <th class="text-center">Year Published</th>
+                          <th class="text-center">Publisher</th>
+                          <th class="text-center">Page Count</th>
+                          <th class="text-center">MSRP ($)</th>
+                          </tr>
+                  </thead>
+
+                  <tbody>
+                      <tr>
+                          <td>Why Not Me?</td>
+                          <td>Mindy Kaling</td>
+                          <td>2015</td>
+                          <td>The Rivers Page</td>
+                          <td>240</td>
+                          <td>13.58</td>
+                      </tr>
+
+                      <tr>
+                          <td>Finding My Virginity</td>
+                          <td>Richard Brandson</td>
+                          <td>2017</td>
+                          <td>Portfolio</td>
+                          <td>480</td>
+                          <td>22.63</td>
+                      </tr>
+
+                      <tr>
+                          <td>The Ride of a Lifetime</td>
+                          <td>Robert Iger</td>
+                          <td>2019</td>
+                          <td>Random House</td>
+                          <td>272</td>
+                          <td>20.92</td>
+                      </tr>
+
+                      <tr>
+                          <td>Rich Dad Poor Dad</td>
+                          <td>Robert Kiyosaki</td>
+                          <td>1997</td>
+                          <td>Pata Publishing</td>
+                          <td>336</td>
+                          <td>5.39</td>
+                      </tr>
+
+                      <tr>
+                          <td>The Namesake</td>
+                          <td>Jhumpa Lahiri</td>
+                          <td>2004</td>
+                          <td>Harper Perennial</td>
+                          <td>291</td>
+                          <td>17.31</td>
+                      </tr>
+
+
+                  </tbody>
+
+                  <tfoot>
+                      <tr>
+                          <td colspan ="6" >Information provided by the google and amazon books</td>
+                      </tr>
+                  </tfoot>
+
+              </table>
+
+              <h3 id="text_color">Edit Table</h3>
+              <form>
+                <div class="form-group">
+                  <label>Title</label>
+                  <input type="text" class="form-control" id="title">
+                  <label>Author</label>
+                  <input type="text" class="form-control" id="author">
+                  <label>Year Published</label>
+                  <input type="text" class="form-control" id="year">
+                  <label>Publisher</label>
+                  <input type="text" class="form-control" id="publisher">
+                  <label>Page Count</label>
+                  <input type="text" class="form-control" id="page">
+                  <label>MSRP</label>
+                  <input type="text" class="form-control" id="msrp"><br>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
+        </main>
+</body>
+</html>
